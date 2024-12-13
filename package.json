@@ -1,0 +1,6 @@
+{
+  "scripts": {
+    "migrate-to-supabase": "ts-node scripts/migrateToSupabase.ts"
+  }
+}
+

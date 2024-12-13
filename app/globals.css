@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Existing styles... */
+
+/* Add these new styles at the end of the file */
+.radix-themes {
+  --z-index-dropdown: 60;
+  --z-index-modal: 70;
+}
+
+body {
+  isolation: isolate;
+}
+
+.ScrollArea {
+  z-index: 1;
+}
+
+[data-radix-popper-content-wrapper] {
+  z-index: 100 !important;
+}
+
